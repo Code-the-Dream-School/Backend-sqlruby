@@ -13,3 +13,6 @@ Paste the SQL statement you used below.  Hint: EmployeeName is not a column in t
 report with EmployeeName by starting your SQL this way: SELECT (Employees.FirstName || " " || Employees.LastName) AS EmployeeName,
 
 
+SELECT (Employees.FirstName || " " || Employees.LastName) AS EmployeeName, ProductID,Quantity 
+ from Orders  JOIN orderdetails ON orders.orderID = OrderDetails.orderID  
+JOIN employees on orders.EmployeeID =employees.EmployeeID 
