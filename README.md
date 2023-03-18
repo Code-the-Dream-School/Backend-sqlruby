@@ -13,7 +13,7 @@ Write a program which asks the user for a number of years, and then prints out h
 
 Here is the first part of the program:
 
-puts "Enter a number of years"  
+puts "Enter a number of years" 
 years = gets.chomp # this returns a string  
 years = years.to_i # this converts a string to an integer  
 hours = years * 365 * 24  
