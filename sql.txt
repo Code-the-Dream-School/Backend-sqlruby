@@ -13,5 +13,7 @@ Join the Orders, OrderDetails, and Employees tables to return a report with with
 Paste the SQL statement you used below.  Hint: EmployeeName is not a column in the Employee table, but you can generate a
 report with EmployeeName by starting your SQL this way: SELECT (Employees.FirstName || " " || Employees.LastName) AS EmployeeName,
 
+This one really stumped me. I didn't have success using right or left join tables either 
 
-SELECT (Employees.FirstName || " " || Employees.LastName) AS EmployeeName FROM Employees INNER JOIN 
+SELECT (Employees.FirstName || " " || Employees.LastName) AS EmployeeName FROM Employees INNER JOIN Orders ON Orders.EmployeeID = Employees.EmployeeID;
+SELECT ProductID, Quantity FROM OrderDetails INNER JOIN Orders ON OrderDetails.OrderID = Orders.OrderID;
