@@ -2,7 +2,8 @@
 
 This week we will finish our introduction to SQL, and start Ruby.
 
-SQL Exercises: A practice SQL environment is at https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
+SQL Exercises: A practice SQL environment is at 
+https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
 
 Note: It is not possible to do these exercises in Firefox. Use Chrome, or if you have a different browser, try it to see if it works.
 
